@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="problems">
+        <item>Mejora</item>
+        <item>Reclamo</item>
+        <item>Error</item>
+    </string-array>
+</resources>

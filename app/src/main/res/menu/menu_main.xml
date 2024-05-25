@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/contacto"
+          android:title="Contacto" />
+
+    <item android:id="@+id/action_exit"
+        android:title="Salir" />
+
+    <item android:id="@+id/action_player"
+        android:title="Player"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_pause_resume"
+        android:title="Pausa"
+        app:showAsAction="ifRoom" />
+
+</menu>

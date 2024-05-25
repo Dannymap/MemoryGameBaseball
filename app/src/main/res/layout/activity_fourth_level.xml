@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FourthLevelActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="MemoryMLB" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:max="100"
+        android:progress="100" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:rowCount="4">
+
+        <ImageView
+            android:id="@+id/card1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 1"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 2"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 3"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 4"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 5"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 6"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 7"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 8"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 9"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 10"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 11"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 12"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 13"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 14"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 15"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+        <ImageView
+            android:id="@+id/card16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Carta 16"
+            android:src="@drawable/card_back"
+            android:onClick="onCardClicked" />
+
+    </GridLayout>
+
+</LinearLayout>

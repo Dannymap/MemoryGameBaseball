@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MemoryGameBaseball</string>
+    <string name="dmap_services"><![CDATA[@DMAP-Services]]></string>
+
+    <!-- opcines de erores -->
+    <string name="problem_improvement">Mejora</string>
+    <string name="problem_complaint">Reclamo</string>
+    <string name="problem_bug">Error</string>
+</resources>
